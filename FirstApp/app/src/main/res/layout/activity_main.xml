@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/degradation"
+    android:foregroundGravity="bottom|center"
+    android:gravity="bottom|center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="429dp"
+        android:layout_height="55dp"
+        android:layout_gravity="bottom|center"
+        android:layout_weight="1"
+        android:contentDescription="TODO"
+        android:foregroundGravity="bottom|center"
+        app:srcCompat="@drawable/bb"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="387dp"
+        android:layout_height="122dp"
+        android:layout_gravity="bottom|center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="𝐅𝐒𝐈 𝐌𝐀𝐍𝐀𝐆𝐄𝐌𝐄𝐍𝐓 "
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:foregroundGravity="bottom|center"
+        android:gravity="center"
+        android:text="___________________________________"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="312dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/add_etu"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_weight="1"
+            android:text="MANAGE ADD STUDENT" />
+
+        <Button
+            android:id="@+id/ADD_TEACHER"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_weight="1"
+            android:text="MANAGE  ADD TEACHER" />
+
+        <Button
+            android:id="@+id/ADD_MODEL"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_weight="1"
+            android:text="MANAGE ADD MODEL" />
+
+        <Button
+            android:id="@+id/ADD_registration"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_weight="1"
+            android:text="MANAGE REGISTRATION" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:foregroundGravity="bottom|center"
+            android:gravity="center"
+            android:text="___________________________________"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>
